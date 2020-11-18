@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.pane {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80vw;
+  margin-top: 45px;
+  height: 60vh;
+  background-color: #28272bff;
+  border-style: none;
+  resize: none;
+  color: #fec157;
+  font-family: Dank Mono;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
